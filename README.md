@@ -1,68 +1,82 @@
 # Sentiment-based-model-for-recommender-systems
 **YouTube Sentiment Analysis & Recommender System 📊🎬**
+
 This project is a web-based application designed to extract and analyze sentiments from YouTube comments. By leveraging a CNN (Convolutional Neural Network) model, it classifies user feedback to provide data-driven insights and personalized video recommendations.
 
-🚀 Features
-User Authentication: Secure sign-up and login system.
+**🚀 Features**
 
-Data Processing: Tools to load and preprocess datasets for training.
+**User Authentication**: Secure sign-up and login system.
 
-Deep Learning Analysis: Uses a CNN model to predict sentiments (Positive, Neutral, Negative).
+**Data Processing:** Tools to load and preprocess datasets for training.
 
-Batch Analysis: Upload CSV files of comments for bulk sentiment prediction.
+**Deep Learning Analysis:** Uses a CNN model to predict sentiments (Positive, Neutral, Negative).
 
-Single Comment Prediction: Real-time sentiment analysis for individual text inputs.
+**Batch Analysis:** Upload CSV files of comments for bulk sentiment prediction.
 
-Recommendation Engine: Suggests related videos based on the analyzed sentiment patterns.
+**Single Comment Prediction:** Real-time sentiment analysis for individual text inputs.
 
-Data Visualization: Generates graphical representations (pie charts) of sentiment distribution.
+**Recommendation Engine:** Suggests related videos based on the analyzed sentiment patterns.
 
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript (Django Templates)
+**Data Visualization:** Generates graphical representations (pie charts) of sentiment distribution.
 
-Backend: Django (Python Framework)
+**🛠️ Tech Stack**
 
-Database: MySQL (managed via SQLyog/WampServer)
+**Frontend:** HTML, CSS, JavaScript (Django Templates)
 
-Machine Learning: TensorFlow / Keras (CNN Algorithm)
+**Backend:** Django (Python Framework)
 
-Tools: WampServer, SQLyog, Anaconda/Python Terminal
+**Database:** MySQL (managed via SQLyog/WampServer)
 
-📂 Project Structure
-Plaintext
+**Machine Learning:** TensorFlow / Keras (CNN Algorithm)
+
+**Tools:** WampServer, SQLyog, Anaconda/Python Terminal
+
+**📂 Project Structure**
+
+**Plaintext**
+
 YouTubeSentiments/
+
 ├── Dataset/             # CSV files for training and testing
+
 ├── model/               # Saved CNN model files
+
 ├── SentimentApp/        # Django application logic
+
 ├── Sentiment/           # Project configuration settings
+
 ├── DB/                  # SQL scripts for database setup
+
 └── manage.py            # Django entry point
 
-⚙️ Installation & Setup
-Database Setup:
+**⚙️ Installation & Setup**
+
+**Database Setup:**
 
 Open WampServer and ensure MySQL is running.
 
 Use SQLyog to import the database script found in the DB/ folder.
 
-Environment Configuration:
+**Environment Configuration:**
 
 Ensure you have Python and Django installed.
 
-Install dependencies: pip install tensorflow django pymysql pandas matplotlib
+**Install dependencies:** pip install tensorflow django pymysql pandas matplotlib
 
-Run the Application:
+**Run the Application**:
 
 Bash
 python manage.py runserver
-Access the Site:
+
+**Access the Site:**
 Open your browser and go to http://127.0.0.1:8000/
 
-📊 How it Works
-Train the Model: Load the dataset and run the CNN training module to establish prediction accuracy.
+**📊 How it Works**
 
-Input Data: Either type a single comment or upload a .csv file containing multiple YouTube comments.
+**Train the Model:** Load the dataset and run the CNN training module to establish prediction accuracy.
 
-Analysis: The system processes the text and displays a sentiment score and classification.
+**Input Data:** Either type a single comment or upload a .csv file containing multiple YouTube comments.
 
-Recommendation: Based on the sentiment, the system provides a list of recommended Video IDs to improve user engagement.
+**Analysis**: The system processes the text and displays a sentiment score and classification.
+
+**Recommendation:** Based on the sentiment, the system provides a list of recommended Video IDs to improve user engagement.
