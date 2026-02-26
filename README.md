@@ -3,35 +3,41 @@
 
 This project is a web-based application designed to extract and analyze sentiments from YouTube comments. By leveraging a CNN (Convolutional Neural Network) model, it classifies user feedback to provide data-driven insights and personalized video recommendations.
 
+
 **🚀 Features**
 
-**User Authentication**: Secure sign-up and login system.
 
-**Data Processing:** Tools to load and preprocess datasets for training.
+User Authentication: Secure sign-up and login system.
 
-**Deep Learning Analysis:** Uses a CNN model to predict sentiments (Positive, Neutral, Negative).
+Data Processing: Tools to load and preprocess datasets for training.
 
-**Batch Analysis:** Upload CSV files of comments for bulk sentiment prediction.
+Deep Learning Analysis: Uses a CNN model to predict sentiments (Positive, Neutral, Negative).
 
-**Single Comment Prediction:** Real-time sentiment analysis for individual text inputs.
+Batch Analysis: Upload CSV files of comments for bulk sentiment prediction.
 
-**Recommendation Engine:** Suggests related videos based on the analyzed sentiment patterns.
+Single Comment Prediction: Real-time sentiment analysis for individual text inputs.
 
-**Data Visualization:** Generates graphical representations (pie charts) of sentiment distribution.
+Recommendation Engine: Suggests related videos based on the analyzed sentiment patterns.
+
+Data Visualization: Generates graphical representations (pie charts) of sentiment distribution.
+
 
 **🛠️ Tech Stack**
 
-**Frontend:** HTML, CSS, JavaScript (Django Templates)
 
-**Backend:** Django (Python Framework)
+Frontend: HTML, CSS, JavaScript (Django Templates)
 
-**Database:** MySQL (managed via SQLyog/WampServer)
+Backend: Django (Python Framework)
 
-**Machine Learning:** TensorFlow / Keras (CNN Algorithm)
+Database: MySQL (managed via SQLyog/WampServer)
 
-**Tools:** WampServer, SQLyog, Anaconda/Python Terminal
+Machine Learning: TensorFlow / Keras (CNN Algorithm)
+
+Tools: WampServer, SQLyog, Anaconda/Python Terminal
+
 
 **📂 Project Structure**
+
 
 **Plaintext**
 
@@ -49,7 +55,9 @@ YouTubeSentiments/
 
 └── manage.py            # Django entry point
 
+
 **⚙️ Installation & Setup**
+
 
 **Database Setup:**
 
@@ -71,12 +79,14 @@ python manage.py runserver
 **Access the Site:**
 Open your browser and go to http://127.0.0.1:8000/
 
+
 **📊 How it Works**
 
-**Train the Model:** Load the dataset and run the CNN training module to establish prediction accuracy.
 
-**Input Data:** Either type a single comment or upload a .csv file containing multiple YouTube comments.
+**Train the Model:**  Load the dataset and run the CNN training module to establish prediction accuracy.
 
-**Analysis**: The system processes the text and displays a sentiment score and classification.
+**Input Data:**  Either type a single comment or upload a .csv file containing multiple YouTube comments.
 
-**Recommendation:** Based on the sentiment, the system provides a list of recommended Video IDs to improve user engagement.
+**Analysis**:  The system processes the text and displays a sentiment score and classification.
+
+**Recommendation:**  Based on the sentiment, the system provides a list of recommended Video IDs to improve user engagement.
